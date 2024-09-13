@@ -1,7 +1,9 @@
+package three_sum_problem;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class ThreeSum {
+public class BruteForceApproach {
     static List<int[]> findTriplets(int arr[]){
         List<int[]> triplets = new ArrayList<>();
         int n = arr.length;
